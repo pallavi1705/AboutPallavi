@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar navbar-expand navbar-dark bg-dark">
       <div className="container-fluid">
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
@@ -13,12 +13,12 @@ function Header() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/About">
+              <Link className="nav-link" to="/about">
                 About
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/Skills">
+              <Link className="nav-link" to="/skills">
                 Skills
               </Link>
             </li>
@@ -28,7 +28,7 @@ function Header() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/">
+              <Link className="nav-link" to="/contact">
                 Contact
               </Link>
             </li>
