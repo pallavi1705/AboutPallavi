@@ -8,7 +8,7 @@ function App() {
           <div className="col-md-2">
             <img
               src={profileImage}
-              alt="profile Image"
+              alt="profileImg"
               className="img-thumbnail"
             />
           </div>
