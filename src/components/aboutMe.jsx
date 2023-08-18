@@ -3,7 +3,7 @@ import profileImage from "../images/profileImage.jpg";
 function AboutMe() {
   return (
     <>
-      <div className="row g-0 m-5">
+      <div className="row g-0 m-2">
         {/* <div className="col-md-2">
           <img
             src={profileImage}
