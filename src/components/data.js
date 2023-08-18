@@ -15,3 +15,4 @@ export const functionalSkills = [
     { thumbnailUrl: "https://tse3.mm.bing.net/th?id=OIP.B1Ai9eObSWTTJ57RIdtRUgHaE7&pid=Api&P=0&h=180", title: "Technical Analyst", level: "Intermediate" },
     { thumbnailUrl: "https://tse2.mm.bing.net/th?id=OIP.LL9j22vzzFIXUDxWQfas0gHaGi&pid=Api&P=0&h=180", title: "Technical Delivery Lead", level: "Intermediate" }
   ];
+

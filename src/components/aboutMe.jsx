@@ -4,14 +4,14 @@ function AboutMe() {
   return (
     <>
       <div className="row g-0 m-5">
-        <div className="col-md-2">
+        {/* <div className="col-md-2">
           <img
             src={profileImage}
             alt="profileImg"
             style={{ borderRadius: "50%" }}
             className="img-thumbnail"
           />
-        </div>
+        </div> */}
         <div className="col-md-10">
           <div className="card-body">
             <h5 className="card-title font-italic" style={{ color: "#800080" }}>
@@ -36,6 +36,82 @@ function AboutMe() {
             </p>
           </div>
         </div>
+        <div className="col-md-2">
+          <img
+            src={profileImage}
+            alt="profileImg"
+            style={{ borderRadius: "50%" }}
+            className="img-thumbnail"
+          />
+        </div>
+        
+      </div>
+      <hr/>
+      <h5 className="font-italic m-5" style={{ color: "#800080" }}>
+              Contact
+        </h5>
+      <div className="container">
+        <div className="card p-2 m-2" style={{ width: "500px",height:"50px" }}>
+          <div className="row">
+            <div className="col-sm-3">
+              <img
+                className="card-img"
+                src="https://tse3.mm.bing.net/th?id=OIP.7y88DqLREW8ApbxWuMBmzgHaEo&pid=Api&P=0&h=180"
+                alt="Card image"
+                style={{width:"60px",height:"35px"}}
+              />
+            </div>
+            <div className="col-sm-9">
+              <div className="card-body-right">
+                <a className="card-title font-italic" href="https://www.linkedin.com/in/pallavinagendra/" target="_blank">https://www.linkedin.com/in/pallavinagendra/</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+      <div className="container">
+        <div className="card p-2 m-2" style={{ width: "500px",height:"50px" }}>
+          <div className="row">
+            <div className="col-sm-3">
+              <img
+                className="card-img"
+                src="https://tse2.mm.bing.net/th?id=OIP._HIgvWNkUXHN01X7N42A_wHaHa&pid=Api&P=0&h=180"
+                alt="Card image"
+                style={{width:"25px",height:"25px"}}
+              />
+            </div>
+            <div className="col-sm-9">
+              <div className="card-body-right">
+                <a className="card-title font-italic" href="mailto:pallavibharadwaj17@gmail.com" target="_blank">pallavibharadwaj17@gmail.com</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+      
+      <div className="container">
+        <div className="card p-2 m-2" style={{ width: "500px",height:"50px" }}>
+          <div className="row">
+            <div className="col-sm-3">
+              <img
+                className="card-img"
+                src="https://tse3.mm.bing.net/th?id=OIP.wEDp5KI2DzQ7uLI8NMt48AHaHf&pid=Api&P=0&h=180"
+                alt="Card image"
+                style={{width:"25px",height:"25px"}}
+              />
+            </div>
+            <div className="col-sm-9">
+              <div className="card-body-right">
+                <p className="card-title font-italic text-primary">+91-9611318393</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
       </div>
     </>
   );
