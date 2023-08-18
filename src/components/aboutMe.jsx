@@ -57,7 +57,7 @@ function AboutMe() {
               <img
                 className="card-img"
                 src="https://tse3.mm.bing.net/th?id=OIP.7y88DqLREW8ApbxWuMBmzgHaEo&pid=Api&P=0&h=180"
-                alt="Card image"
+                alt="linkedin"
                 style={{width:"60px",height:"35px"}}
               />
             </div>
@@ -78,7 +78,7 @@ function AboutMe() {
               <img
                 className="card-img"
                 src="https://tse2.mm.bing.net/th?id=OIP._HIgvWNkUXHN01X7N42A_wHaHa&pid=Api&P=0&h=180"
-                alt="Card image"
+                alt="gmail"
                 style={{width:"25px",height:"25px"}}
               />
             </div>
@@ -100,7 +100,7 @@ function AboutMe() {
               <img
                 className="card-img"
                 src="https://tse3.mm.bing.net/th?id=OIP.wEDp5KI2DzQ7uLI8NMt48AHaHf&pid=Api&P=0&h=180"
-                alt="Card image"
+                alt="phone"
                 style={{width:"25px",height:"25px"}}
               />
             </div>
